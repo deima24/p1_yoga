@@ -1,19 +1,9 @@
 
-
-img {
-    background-color: red;
-}
-
-
-
-footer {
-    background-color: black;
-}
-
 /* navbar */
 
 header {
     font-size: 1.4rem;
+    
 }
 
 a {
@@ -25,11 +15,24 @@ li {
     list-style-type: none;
     text-align: center;
     display: list-item;
-    
 }
 
 .navbar {
     background-color: #1E90FF;
+    
+}
+
+#nalinks {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+/* image */
+
+#hero {
+    height: 500px;
+    width: 100%;
+    background: url(../images/main-yoga.jpg)no-repeat center center/cover;
 }
 
 @media screen and (min-width: 768px) {
