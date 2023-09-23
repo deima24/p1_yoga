@@ -30,5 +30,11 @@ li {
 
 .navbar {
     background-color: #1E90FF;
-    
+}
+
+@media screen and (min-width: 768px) {
+    #nalinks {
+        justify-content: space-between;
+        display: flex;
+    }
 }
