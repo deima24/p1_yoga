@@ -38,12 +38,15 @@ li {
 .title {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 /* body */ 
 body {
     margin: 0;
 }
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -58,5 +61,18 @@ body {
 
     header {
         font-size: 1.6rem;
+    }
+
+    .reasons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits-1>div {
+        align-self: flex-start;
+    }
+    
+    #benefits-2>div {
+        align-self: flex-end;
     }
 }
