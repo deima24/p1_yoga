@@ -71,6 +71,10 @@ span {
     font-weight: bold;
 }
 
+.things-in-class {
+    display: table;
+}
+
 /* footer */
 footer {
     background-color: #A0522D;
