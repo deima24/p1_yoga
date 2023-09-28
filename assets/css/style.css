@@ -51,6 +51,7 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
 }
 
 h3 {
@@ -64,6 +65,10 @@ h3 {
 .new-to-yoga {
     
     text-align: center;
+}
+
+span {
+    font-weight: bold;
 }
 
 /* footer */
