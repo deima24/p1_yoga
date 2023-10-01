@@ -49,6 +49,7 @@ li {
 }
 
 /* body */ 
+
 body {
     margin: 0;
 }
@@ -101,7 +102,6 @@ footer {
 .social-media i {
     font-size: 150%;
 }
-
 
 
 @media screen and (min-width: 768px) {
