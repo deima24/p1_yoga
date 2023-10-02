@@ -108,7 +108,7 @@ footer {
 #signup {
     background-image: url("../images/sign-up.jpg");
     background-size: cover;
-    height: 600px;
+    height: 550px;
     
 }
 
@@ -129,12 +129,14 @@ input[type=password] {
     background: #f1f1f1;
 }
 
-.container {
-    margin-top: 60px;
-}
+
 
 .signupbtn {
     border-radius: 10px;
+}
+
+form {
+    border: 0;
 }
 
 
