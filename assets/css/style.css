@@ -40,6 +40,12 @@ li {
     background: url(../images/yoga_lessons.jpg)no-repeat center center/cover;
 }
 
+/* about page */
+
+.about {
+    text-align: center;
+}
+
 /* page title */
 .title {
     font-size: 1.5rem;
@@ -202,6 +208,8 @@ form {
             padding-top: 50px;
         }
 }
+
+
 
 @media screen and (min-width: 1024px) {
 
