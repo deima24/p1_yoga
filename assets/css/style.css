@@ -43,7 +43,30 @@ li {
 /* about page */
 
 .about {
+    
+}
+
+.text_about p {
+    margin: 0;
+}
+
+.text_about h1 {
     text-align: center;
+}
+
+.about-img {
+    max-width: 260px;
+    float: left;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid black;
+    margin: 20px;
 }
 
 /* page title */
@@ -222,4 +245,15 @@ form {
         width: 100%;
     }
 
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .text_about p {
+        font-size: 1.2rem;
+        }
+    
+        .text_about h1 {
+        font-size: 1.6rem;
+        }
 }
