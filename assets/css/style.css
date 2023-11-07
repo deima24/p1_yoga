@@ -43,11 +43,11 @@ li {
 /* about page */
 
 .about {
-    
+    display: contents;
 }
 
 .text_about p {
-    margin: 0;
+    margin: 20px;
 }
 
 .text_about h1 {
@@ -175,6 +175,12 @@ form {
     margin-top: 50px;
 }
 
+
+@media screen and (max-width: 320px){
+    .about {
+        display: block;
+    }
+}
 
 @media screen and (min-width: 768px) {
 
