@@ -40,6 +40,25 @@ li {
     background: url(../images/yoga_lessons.jpg)no-repeat center center/cover;
 }
 
+
+/* classes */
+
+.time-table {
+    text-align: center;
+}
+
+.times {
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.classes_form {
+    color: #f12a07;
+}
+
+
+
+
 /* about page */
 
 .about {
