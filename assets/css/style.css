@@ -204,7 +204,7 @@ form {
 @media screen and (min-width: 768px) {
 
     #nalinks {
-        justify-content: space-between;
+        justify-content: space-evenly;
         display: flex;
     }
 
