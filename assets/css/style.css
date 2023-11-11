@@ -6,6 +6,9 @@ header {
     
 }
 
+
+
+
 a {
     text-decoration: none;
     color: #000000;
@@ -217,6 +220,15 @@ form {
     }
 }
 
+@media screen and (min-width: 576px) {
+
+    #collapsibleNavbar {
+    
+        display: block !important;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
 
     #nalinks {
@@ -285,7 +297,6 @@ form {
     .benefits-2 {
         width: 100%;
     }
-
 }
 
 @media screen and (min-width: 1440px) {
