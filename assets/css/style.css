@@ -139,16 +139,28 @@ footer {
     background-color: #A0522D;
 }
 
+.get_info {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+
+.get_info_title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.6rem;
+}
+
 .social-media {
     padding: 10px 20px;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
+    justify-content: space-around;
+    
 }
 .social-media i {
     font-size: 150%;
+    
 }
 
 /* sign up page */
@@ -197,6 +209,10 @@ form {
 
 @media screen and (max-width: 320px){
     .about {
+        display: block;
+    }
+
+    .get_info{
         display: block;
     }
 }
